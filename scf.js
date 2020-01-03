@@ -15,7 +15,6 @@ const LOADED = (element, callback) => {
     }
 };
 
-
 //修改网站图标
 const changeFavicon = link => {
   let $favicon = document.querySelector('link[rel="icon"]');
@@ -63,7 +62,7 @@ const ADD_UMBRELLA_BACKGROUND = (callback) => {
     document.body.appendChild(SCRIPT);
 };
 
-const ADD_IMGAGE_BACKGROUND = () => {
+//const ADD_IMGAGE_BACKGROUND = () => {
     const IMAGE = 'url(https://img12.360buyimg.com/img/jfs/t1/56992/25/15607/359235/5dc93624E8223dc25/41cac0ada12d3ad9.jpg)'
     const DIV = document.createElement('div');
     DIV.style.background = IMAGE;
