@@ -63,7 +63,7 @@ const ADD_UMBRELLA_BACKGROUND = (callback) => {
 };
 
 const ADD_IMGAGE_BACKGROUND = () => {
-    const IMAGE = 'url()'
+    const IMAGE = 'url(https://img12.360buyimg.com/img/jfs/t1/56992/25/15607/359235/5dc93624E8223dc25/41cac0ada12d3ad9.jpg)'
     const DIV = document.createElement('div');
     DIV.style.background = IMAGE;
     DIV.style.pointerEvents = 'none';
